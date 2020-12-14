@@ -301,6 +301,12 @@
     [Supplier3PartNo]                 VARCHAR (100)  NULL,
     [Supplier4]                       VARCHAR (50)   NULL,
     [Supplier4PartNo]                 VARCHAR (100)  NULL,
+[SensingRange] NVARCHAR（50）NULL，
+ [ActuatorLevel] NVARCHAR（50）NULL，
+ [PartStatus] NVARCHAR（50）NULL，
+ [HeightAboveBoard] NVARCHAR（50）NULL，
+ [ElectricalLife]                   VARCHAR（50）NULL，
+ [Axis]                             VARCHAR（50）NULL，
     CONSTRAINT [PK_Components] PRIMARY KEY CLUSTERED ([PartId] ASC)
 );
 
